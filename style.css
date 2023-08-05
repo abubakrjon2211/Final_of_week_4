@@ -23,11 +23,6 @@ body {
   justify-content: center;
   font-family: "Montserrat Alternates", sans-serif;
 }
-.container .first-card .first-button button {
-  border-radius: 15px;
-  background: #273895;
-  padding: 20px 20px;
-}
 .container .first-card .card4-ul {
   margin-left: 15px;
   margin-bottom: 10px;
@@ -63,4 +58,89 @@ body {
 }
 .container .text .p3 span {
   font-weight: 600;
+}
+
+.first-button {
+  display: grid;
+  align-self: center;
+  justify-content: center;
+}
+
+button {
+  border-radius: 15px;
+  background: #273895;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.first {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.first .first-carts {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 33% 30%;
+  justify-content: space-between;
+  background-image: url(img/Vector\ 3.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.first .first-h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  display: grid;
+  justify-content: center;
+  margin: 80px auto 40px auto;
+}
+.first .col-1 .row-1 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 65%;
+  margin-bottom: 10px;
+}
+.first .col-1 .row-1 .p1 {
+  color: #404040;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 225% */
+  margin: 10px auto;
+}
+.first .col-1 .row-1 .p2 {
+  color: #404040;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.first .col-2 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+.first .col-2 svg {
+  margin: 50px 0;
+}
+.first .col-2 .img {
+  width: 80%;
+  margin: 10px auto;
+}
+.first .col-2 .img img {
+  width: 80%;
+}
+.first .col-2 .p2 {
+  color: #404040;
+  width: 90%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.first .col-3 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px 30px;
 }/*# sourceMappingURL=style.css.map */

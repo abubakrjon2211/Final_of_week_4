@@ -8,6 +8,11 @@ body{
 @mixin button(){
     border-radius: 15px;
     background: #273895;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    font-family: 'Montserrat Alternates', sans-serif; 
+
 }
 .container{
     width:80%;
@@ -66,8 +71,93 @@ span{
     }
 }
 .first-button{
-    button{
+    display: grid;
+    align-self: center  ;
+    justify-content: center;
     
-        padding: 20px 20px;
+}
+button{
+     
+    @include button();
+   
+    
+}
+// 1
+.first{
+    font-family: 'Montserrat Alternates', sans-serif; 
+  
+
+    .first-carts{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 30% 33% 30%  ;
+        justify-content: space-between;
+        background-image: url(img/Vector\ 3.png);
+        background-repeat: no-repeat;
+        background-size: auto;
     }
-            }
+    .first-h1{
+        font-family: 'Montserrat Alternates', sans-serif; 
+        display: grid;
+        justify-content: center;
+        margin: 80px auto 40px auto;
+    
+    }
+    .col-1{
+      
+         .row-1{
+        background-color: white;
+        padding: 20px;
+        border-radius: 20px;
+        width: 65%;
+        margin-bottom: 10px;
+        .p1{
+            color: #404040;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; /* 225% */
+margin: 10px auto   ;
+        }
+        .p2{
+            color: #404040;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+        }
+    }
+    }
+    .col-2{
+        background-color: white;
+        border-radius: 20px;
+     padding: 20px 30px;
+   svg{
+    margin: 50px 0;
+   }
+       .img{
+        width: 80%;
+        margin: 10px auto;
+      img{
+        width: 80%;
+      }
+       }
+       .p2{
+        color: #404040;
+        width: 90%;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+       }
+    }
+    .col-3{
+        background-color: #ffffff;
+        border-radius: 20px;
+        padding: 20px 30px;
+      
+    }
+   
+
+}
